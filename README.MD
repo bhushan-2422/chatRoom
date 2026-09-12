@@ -1,4 +1,4 @@
-# ChatRoomCpp
+# ChatRoom
 
 A lightweight TCP-based chat system built in C++ with **Boost.Asio**.  
 The project demonstrates asynchronous socket communication, client session management, message framing, and concurrent processing.
@@ -7,7 +7,7 @@ The project demonstrates asynchronous socket communication, client session manag
 
 ## What This Project Does
 
-ChatRoomCpp provides a server-client chat environment where multiple users can connect to a common room and exchange messages.
+ChatRoom provides a server-client chat environment where multiple users can connect to a common room and exchange messages.
 
 The main responsibilities are divided into:
 
