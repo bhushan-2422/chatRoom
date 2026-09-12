@@ -16,6 +16,7 @@
 using boost::asio::ip::tcp;
 
 class Participant{
+    public:
     virtual void deliver(Message& message) = 0;
     virtual void write(Message& message) = 0;
     virtual ~Participant() = default;
