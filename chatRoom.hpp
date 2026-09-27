@@ -40,8 +40,8 @@ class Session : public Participant, public std::enable_shared_from_this<Session>
     public:
         Session(tcp::socket s, Room& room);
         void start();
-        void deliver();
-        void write();
+        void deliver(Message & message);
+        void write(Message & message);
         void async_read();
         void async_write(std::string messageBody, size_t messageLength);
     

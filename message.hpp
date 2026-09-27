@@ -59,6 +59,10 @@ class Message{
 
             return message.size();
         }
+
+        size_t getBodyLength(){
+            return bodyLength;
+        }
     
 
     private:
